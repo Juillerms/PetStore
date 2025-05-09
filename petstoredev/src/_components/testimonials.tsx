@@ -49,12 +49,12 @@ export function Testimonials() {
                 <div className="container mx-auto px-4">
                     <div>
                         <h2 className=" text-4xl font-4x1 text-center mb-12">Depoimento dos nossos clientes</h2>
-                        <div className="relative max-w-4xl">
+                        <div className="relative flex items-centermax-w-3xl">
 
                             <div className='overflow-hidden' ref={emblaRef}>
-                                <div className='flex'>
+                                <div className='flex item'>
                                     {testimonials.map((item, index) =>(
-                                        <div key={index} className="flex-[0_0_100%] min-w-0  px-3">
+                                        <div key={index} className="flex-[0_0_100%] items-center min-w-0  px-3">
                                             <article className="bg-[#1e293e] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                                                 <div className='flex flex-col items-center text-center space-y-4'>
                                                     <div className='relative w-24 h-24'>
